@@ -36,9 +36,9 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
     id:'signup',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     topLine: 'Experience',
     headline: 'My experience in the world of web development',
     description: "Developed front-end web applications which processed, analyzed, and rendered data visually. Planned, wrote, and debugged web applications and software with complete accuracy. Maximized applications’ efficiency, data quality, scope, operability, and flexibility.",
@@ -46,8 +46,8 @@ export const homeObjThree = {
     imgStart: false,
     img: require('../../images/svg-3.svg').default,
     alt: 'Medical',
-    dark: false,
-    primary: false,
-    darkText: true,
+    dark: true,
+    primary: true,
+    darkText: false,
     link: 'https://github.com/mandarin123'
 };

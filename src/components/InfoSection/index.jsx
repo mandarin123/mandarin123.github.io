@@ -1,4 +1,5 @@
 import React from 'react'
+import { Parallax } from 'react-scroll-parallax';
 import { Button } from '../ButtonElement';
 import {
     InfoContainer,
@@ -37,6 +38,7 @@ const InfoSection = ({
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
+                <Parallax scaleX={10, 100}>
                 <InfoWrapper>
                     <InfoRow imgStart={imgStart}>
                         <Column1>
@@ -66,6 +68,7 @@ const InfoSection = ({
                         </Column2>
                     </InfoRow>
                 </InfoWrapper>
+                </Parallax>
             </InfoContainer>   
         </>
     )
